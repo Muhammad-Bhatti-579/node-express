@@ -1,33 +1,65 @@
-.App {
-  text-align: center;
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 20px;
+  background: #b2c0b7; 
+  color: black;
+  height: 80px;
+  line-height: 100px;
+}
+.navBarLink{
+  margin: 25px;
+  color: grey;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table{
+  margin-top: 150px;
+  font-style: italic;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+th{
+  font-size: 20px;
   color: white;
 }
-
+td{
+  font-size: 15px;
+  color: black;
+}
 .App-link {
-  color: #61dafb;
+  color: #1ce609;
+}
+.createClass{
+  color: rgb(19, 209, 35);
+  font-style: italic;
 }
 
+.editClass{
+  color: rgb(19, 209, 35);
+  font-style: italic;
+}
+
+
+.homeClass{
+  width: 100%;
+  background-image: url("./components/bank.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  height: 600px;
+
+}
+
+.footer{
+  position: fixed;
+  height: 80px;
+  bottom: 0;
+  width: 100%;
+  
+
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
